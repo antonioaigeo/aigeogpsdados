@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIGEO GPS Dados - Seu Coletor de Dados GPS Profissional</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome para Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" xintegrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Fontes do Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .hero-bg {
+            background-color: #1a202c;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%232d3748' fill-opacity='0.4'%3E%3Cpath opacity='.5' d='M96 95h4v1h-4v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4h-9v4h-1v-4H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15v-9H0v-1h15V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h9V0h1v15h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9h4v1h-4v9zm-1 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm9-10v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-10 0v-9h-9v9h9zm-9-10h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9zm10 0h9v-9h-9v9z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+        .btn-download {
+            transition: all 0.3s ease;
+        }
+        .btn-download:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .feature-card {
+            transition: all 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Navegação -->
+    <nav class="bg-white/80 backdrop-blur-md shadow-md sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center h-16">
+                <span class="text-2xl font-bold text-blue-600">AIGEO GPS Dados</span>
+                <div class="hidden md:flex space-x-4">
+                    <a href="#features" class="text-gray-600 hover:text-blue-600">Funcionalidades</a>
+                    <a href="#academic" class="text-gray-600 hover:text-blue-600">Uso Acadêmico</a>
+                    <a href="#install" class="text-gray-600 hover:text-blue-600">Instalação</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600">Desenvolvedor</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Secção Principal (Hero) -->
+    <header class="hero-bg text-white">
+        <div class="max-w-6xl mx-auto px-4 py-20 md:py-32 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4">A Ferramenta Definitiva para Coleta de Dados GPS</h1>
+            <p class="text-lg md:text-xl text-gray-300 mb-8 max-w-3xl mx-auto">Precisão, organização e exportação fácil para profissionais de campo. Desenvolvido por geógrafo para todos.</p>
+            <a href="https://drive.google.com/file/d/1Du_1KI1QNiKqHWnIF3-LdUsQ2RbBid9A/view?usp=sharing" target="_blank" class="btn-download inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold text-lg py-4 px-10 rounded-full shadow-lg">
+                <i class="fas fa-download mr-3"></i>
+                Download do APK (v1.2.1)
+            </a>
+        </div>
+    </header>
+
+    <!-- Secção de Funcionalidades -->
+    <section id="features" class="py-20">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-2">Tudo o que Você Precisa</h2>
+            <p class="text-gray-600 mb-12">Funcionalidades pensadas para o trabalho de campo.</p>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="feature-card bg-white p-8 rounded-xl shadow-lg">
+                    <div class="text-blue-600 mb-4"><i class="fas fa-satellite-dish fa-3x"></i></div>
+                    <h3 class="text-xl font-bold mb-2">Dados em Tempo Real</h3>
+                    <p class="text-gray-600">Acompanhe sua latitude, longitude, precisão e o número de satélites em tempo real.</p>
+                </div>
+                <div class="feature-card bg-white p-8 rounded-xl shadow-lg">
+                    <div class="text-blue-600 mb-4"><i class="fas fa-pencil-alt fa-3x"></i></div>
+                    <h3 class="text-xl font-bold mb-2">Descrição de Pontos</h3>
+                    <p class="text-gray-600">Adicione uma descrição detalhada a cada ponto coletado para uma organização impecável.</p>
+                </div>
+                <div class="feature-card bg-white p-8 rounded-xl shadow-lg">
+                    <div class="text-blue-600 mb-4"><i class="fas fa-file-export fa-3x"></i></div>
+                    <h3 class="text-xl font-bold mb-2">Exporte para CSV & KML</h3>
+                    <p class="text-gray-600">Com um clique, exporte seus dados para formatos compatíveis com qualquer software GIS.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secção Uso Académico -->
+    <section id="academic" class="bg-gray-100 py-20">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-2">Ideal para Trabalhos Acadêmicos</h2>
+            <p class="text-gray-600 mb-12">Perfeito para TCCs, dissertações e teses que envolvem trabalho de campo.</p>
+            <div class="grid md:grid-cols-3 gap-8 text-left">
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <div class="flex items-center mb-3">
+                        <i class="fas fa-book-open text-blue-500 fa-2x mr-4"></i>
+                        <h3 class="text-lg font-semibold">Rigor Metodológico</h3>
+                    </div>
+                    <p class="text-gray-600">Exporte dados em CSV ou KML para incluir facilmente na sua metodologia, com registo de precisão para cada ponto.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <div class="flex items-center mb-3">
+                        <i class="fas fa-archive text-blue-500 fa-2x mr-4"></i>
+                        <h3 class="text-lg font-semibold">Dados Organizados</h3>
+                    </div>
+                    <p class="text-gray-600">A função de descrição de pontos garante que as suas anotações de campo não se percam, facilitando a análise posterior.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow">
+                    <div class="flex items-center mb-3">
+                        <i class="fas fa-wallet text-blue-500 fa-2x mr-4"></i>
+                        <h3 class="text-lg font-semibold">Custo Zero</h3>
+                    </div>
+                    <p class="text-gray-600">Uma ferramenta gratuita e de qualidade que não sobrecarrega o orçamento do estudante ou do pesquisador.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secção de Instalação -->
+    <section id="install" class="py-20">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-12">Como Instalar</h2>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+                <div class="text-left space-y-6">
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold">1</div>
+                        <div class="ml-4">
+                            <h3 class="text-lg font-semibold">Faça o Download</h3>
+                            <p class="text-gray-600">Clique no botão de download para baixar o ficheiro <strong>aigeo_GPS_v1.2.1.apk</strong>.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold">2</div>
+                        <div class="ml-4">
+                            <h3 class="text-lg font-semibold">Autorize a Instalação</h3>
+                            <!-- CORREÇÃO DA PALAVRA -->
+                            <p class="text-gray-600">No seu <strong>smartphone</strong>, encontre o ficheiro e toque nele. O Android pedirá permissão para "instalar de fontes desconhecidas". Autorize.</p>
+                        </div>
+                    </div>
+                    <div class="flex items-start">
+                        <div class="flex-shrink-0 w-12 h-12 bg-blue-600 text-white rounded-full flex items-center justify-center text-xl font-bold">3</div>
+                        <div class="ml-4">
+                            <h3 class="text-lg font-semibold">Pronto para Usar!</h3>
+                            <p class="text-gray-600">O ícone do AIGEO GPS Dados aparecerá na sua lista de aplicativos. Abra e comece a coletar!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secção Sobre o Desenvolvedor -->
+    <section id="about" class="bg-gray-100 py-20">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Sobre o Desenvolvedor</h2>
+            <div class="bg-white p-8 rounded-xl shadow-lg inline-block">
+                <p class="text-xl font-semibold">Desenvolvido por <strong>AIGEO Mapas</strong></p>
+                <p class="text-gray-700 mt-2">Geógrafo da AIGEO, Prof. M.Sc Antonio Idêrlian Pereira de Sousa</p>
+                <div class="mt-6 flex justify-center space-x-4">
+                    <a href="http://lattes.cnpq.br/8679039748672255" target="_blank" class="text-gray-600 hover:text-blue-600">
+                        <i class="fas fa-graduation-cap fa-2x"></i>
+                        <span class="block text-sm mt-1">Lattes</span>
+                    </a>
+                    <a href="https://www.instagram.com/aigeomapas/" target="_blank" class="text-gray-600 hover:text-blue-600">
+                        <i class="fab fa-instagram fa-2x"></i>
+                        <span class="block text-sm mt-1">Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="max-w-6xl mx-auto px-4 text-center">
+            <p>&copy; 2025 AIGEO GPS Dados. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
